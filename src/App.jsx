@@ -35,6 +35,7 @@ class App extends Component{
       return (
         
       <div className = "app-css">
+        <h2 className='title'>Monster Rolodex</h2>
         <div>
        <SearchBox handleFunction={this.searchFunc} name='searchBox' placeholder='search-monsters' />
        </div>

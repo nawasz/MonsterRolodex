@@ -1,13 +1,19 @@
 .Card-container{
     height:300px;
     width:280px;
-    padding:12px;
-    /* border: 5px dashed red ;
-    border-color: red; */
+    padding:25px;
+
+    border: 1px solid grey ;
+    border-radius: 5px;
+    background-color: #95dada;
     text-align: center;
     transition: transform 0.2s ease;
+    cursor:pointer;
+    backface-visibility: hidden;
+  transform: translateZ(0);
+    -moz-osx-font-smoothing: grayscale;
 } 
 
 .Card-container:hover {
-    transform: scale(1.5);
+    transform: scale(1.05);
   }
