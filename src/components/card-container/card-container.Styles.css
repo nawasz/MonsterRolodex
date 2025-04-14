@@ -1,0 +1,13 @@
+.Card-container{
+    height:300px;
+    width:280px;
+    padding:12px;
+    /* border: 5px dashed red ;
+    border-color: red; */
+    text-align: center;
+    transition: transform 0.2s ease;
+} 
+
+.Card-container:hover {
+    transform: scale(1.5);
+  }
